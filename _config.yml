@@ -1,11 +1,1 @@
----
-title: Mercynetv2
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-formstories: timothy.chester@outlook.com
+formstories: "timothy.chester@outlook.com"

@@ -2,7 +2,6 @@
 title: Community Partners Supporting Mercy Health Center
 layout: page
 ---
-
 <!-- Section -->
 <section class="wrapper style1">
     <div class="inner">
