@@ -1,1 +1,5 @@
 formstories: "timothy.chester@outlook.com"
+
+plugins:
+    - jekyll-admin
+    
