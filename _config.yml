@@ -1,4 +1,5 @@
 formstories: "timothy.chester@outlook.com"
+excerpt_separator: <!--more-->
 
 plugins:
     - jekyll-admin
