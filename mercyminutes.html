@@ -1,0 +1,29 @@
+---
+title: Mercy Minutes
+layout: page
+---
+<!-- Section -->
+<section class="wrapper style1">
+    <div class="inner">
+        <header class="major special">
+            <h1>{{ page.title }}</h1>
+            <p>And he sent them out to proclaim the kingdom of God and to heal.<br />-- Luke 9:2</p>
+        </header>
+        <div class="image main"><img src="/images/mercyminutes.jpg" alt="" /></div>
+
+
+
+        {% for post in site.posts %}
+        <a href="{{ post.url }}">
+            <h3>{{ post.title }} ({{ post.date | date: "%B %-d, %Y"}})</h3>
+        </a>
+        <p>{{ post.excerpt }}</p>
+
+        <hr class="major" />
+
+        {% endfor %}
+
+
+
+    </div>
+</section>
