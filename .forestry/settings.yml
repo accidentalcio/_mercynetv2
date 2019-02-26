@@ -35,8 +35,8 @@ sections:
   path: donate.html
   label: Donate
 - type: document
-  path: default.html
-  label: Default
+  path: index.html
+  label: Index
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
