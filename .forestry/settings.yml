@@ -27,8 +27,7 @@ sections:
   new_doc_ext: html
 - type: document
   path: events.html
-  label: events.html
-  match: "**/*"
+  label: Events
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
