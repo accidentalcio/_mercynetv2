@@ -28,7 +28,6 @@ sections:
 - type: document
   path: volunteer.html
   label: volunteer.html
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
