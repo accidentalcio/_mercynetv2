@@ -26,8 +26,9 @@ sections:
   match: "**/*"
   new_doc_ext: html
 - type: document
-  path: volunteer.html
-  label: volunteer.html
+  path: events.html
+  label: events.html
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
