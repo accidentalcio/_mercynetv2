@@ -5,17 +5,32 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: about
-  label: About
-  create: documents
+  path: ''
+  label: Root
+  create: all
   match: "**/*"
   new_doc_ext: ".html"
 - type: jekyll-posts
   label: Posts
   create: all
-- type: jekyll-pages
-  label: Pages
+- type: directory
+  path: about
+  label: About Us
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".html"
+- type: directory
+  path: services
+  label: Services
   create: all
+  match: "**/*"
+  new_doc_ext: ".html"
+- type: directory
+  path: volunteer
+  label: Volunteer
+  create: all
+  match: "**/*"
+  new_doc_ext: ".html"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
