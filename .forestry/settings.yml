@@ -28,9 +28,11 @@ sections:
 - type: document
   path: events.html
   label: Events
-- type: document
-  path: partners.html
+- type: directory
+  path: partners
   label: Partners
+  create: all
+  match: "**/*"
 - type: document
   path: donate.html
   label: Donate
