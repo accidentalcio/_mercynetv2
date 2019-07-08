@@ -7,6 +7,8 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+  templates:
+  - post
 - type: directory
   path: about
   label: About Us
