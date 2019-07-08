@@ -3,8 +3,19 @@ label: Post
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: title
-- type: text
   name: layout
   label: layout
+  default: blog
+  hidden: true
+- type: text
+  name: title
+  label: title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
