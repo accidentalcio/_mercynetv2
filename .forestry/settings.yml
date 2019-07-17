@@ -7,6 +7,8 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+  templates:
+  - post
 - type: directory
   path: about
   label: About Us
@@ -28,9 +30,11 @@ sections:
 - type: document
   path: events.html
   label: Events
-- type: document
-  path: partners.html
+- type: directory
+  path: partners
   label: Partners
+  create: all
+  match: "**/*"
 - type: document
   path: donate.html
   label: Donate
@@ -54,3 +58,6 @@ build:
   output_directory: _site
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d _site
+  install_dependencies_command: bundle install --path vendor/bundle
+  preview_docker_image: forestryio/ruby:2.6
+  mount_path: "/srv"
