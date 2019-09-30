@@ -19,3 +19,5 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+pages:
+- about/annual-reports.html
